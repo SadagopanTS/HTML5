@@ -1,0 +1,24 @@
+body {
+	text-align:center;
+}
+#new{
+	font-family:Calibri ;
+	font-weight:bold;
+	border:2px solid blue;
+	display:block;
+	/* background:orange; */
+	/* background:-webkit-linear-gradient(top,black,white); */	
+	background:-webkit-linear-gradient(45deg,yellow,red); 
+	/* background:-webkit-radial-gradient(center,circle,red 0%,orange 50%); */
+	color:black;
+	margin:50px auto;
+	width:200px;
+	text-align:center;
+	padding:15px;
+	-webkit-border-radius: 15px;
+	/*-webkit-box-shadow:rgb(110,110,110) 10px 10px 10px ; */
+	-webkit-box-shadow:rgba(110,110,110,.5) 10px 10px 10px ;
+}
+#text{
+	text-shadow :rgb(110,110,110) 5px 5px 5px ;
+}
