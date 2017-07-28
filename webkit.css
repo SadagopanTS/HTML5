@@ -1,0 +1,46 @@
+body {
+	width:100%;
+	display:-webkit-box;
+	-webkit-box-pack: center;
+}
+#Tamilnadu{
+	border: 2px solid red;
+	display:-webkit-box	;
+	-webkit-box-orient: horizontal;
+	width:700px;
+	height:300px;
+	-webkit-box-pack:center;
+	-webkit-box-align:stretch;	
+}
+#Dist1 {
+	border: 2px solid blue;
+	padding : 20px;
+	background:yellow;
+	margin:10px;
+	-webkit-box-ordinal-group: 3;	
+	-webkit-box-flex:1;	
+}
+#Dist2 {
+	border: 2px solid blue;
+	padding : 20px;
+	background:orange;
+	margin:10px;
+	-webkit-box-ordinal-group: 4;	
+	-webkit-box-flex:1;	
+}
+#Dist3 {
+	border: 2px solid blue;
+	padding : 20px;
+	background:green;
+	margin:10px;
+	-webkit-box-flex:1;
+	-webkit-box-ordinal-group: 2;	
+}
+#Dist4{
+	border: 2px solid blue;
+	padding : 20px;
+	background:orange;
+	margin:10px;
+	-webkit-box-flex:1;
+	-webkit-box-ordinal-group: 1;	
+}
