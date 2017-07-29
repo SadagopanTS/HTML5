@@ -11,14 +11,21 @@ body {
 	background:-webkit-linear-gradient(45deg,yellow,red); 
 	/* background:-webkit-radial-gradient(center,circle,red 0%,orange 50%); */
 	color:black;
-	margin:50px auto;
+	margin:250px auto;
 	width:200px;
 	text-align:center;
 	padding:15px;
 	-webkit-border-radius: 15px;
 	/*-webkit-box-shadow:rgb(110,110,110) 10px 10px 10px ; */
-	-webkit-box-shadow:rgba(110,110,110,.5) 10px 10px 10px ;
+	/* -webkit-box-shadow:rgba(110,110,110,.5) 10px 10px 10px ; */
+	/* outline: 7px solid red; */
+	opacity:0.6;
+	-webkit-transition:-webkit-transform 1s, opacity 1s,background 1s,width 1s,height 1s;	
 }
-#text{
-	text-shadow :rgb(110,110,110) 5px 5px 5px ;
+#new:hover{
+	-webkit-transform: rotate(360deg);
+	opacity:1;
+	background:#1ec7e6;
+	width:450px;
+	height:30px;
 }
