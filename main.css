@@ -5,4 +5,4 @@ p[name^="t"] {font-family: Arial; color: yellow; background: black; width: 80px;
 p[name*="o"] {font-family: Arial; color: yellow; background: black; width: 80px;}
 p:nth-child(odd) {width:150px; background: #7e838c; }
 p:nth-child(even) {width:150px; background: #b0c5e8; }
-not(abc){width:200px; background: #4b6ca8;}
+:not(abc) {width:200px; background: #4b6ca8;}
